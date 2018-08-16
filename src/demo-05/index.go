@@ -1,5 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"demo-05/lib"
+)
 
-const freezingPoint = 212.0
+func main(){
+	lib.Hello("Ivan")
+}
