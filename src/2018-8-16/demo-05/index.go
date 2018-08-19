@@ -1,7 +1,7 @@
 package main
 
 import (
-	"demo-05/lib"
+	"2018-8-16/demo-05/lib"
 )
 
 func main(){
