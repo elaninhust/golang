@@ -8,7 +8,9 @@ import (
 
 func main() {
 	var err error
-	n, err := io.WriteString(os.Stdout, "Hello world!\n")
+	var name string
+	name, age := "Elan", 12
+	n, err:= io.WriteString(os.Stdout, "Hello world!\n")
 	if err != nil {
 		fmt.Printf("Error: %v\n", err)
 	}
